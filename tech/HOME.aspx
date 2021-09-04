@@ -14,17 +14,17 @@
                     <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg>
                 <span class="ml-3 text-xl">T</span></a>echNotes<nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                <a class="mr-5 hover:text-white">Home</a>
+                <a class="mr-5 hover:text-white" href="HOME.aspx">Home</a>
                 <a class="mr-5 hover:text-white" href="NotesFinder.aspx">Study Notes</a>
-                <a class="mr-5 hover:text-white">Question Paper</a>
-                <a class="mr-5 hover:text-white">Result</a>
-                <a class="mr-5 hover:text-white">Blog</a>
-                <a class="mr-5 hover:text-white">About Us</a>
+                <a class="mr-5 hover:text-white" href="QuestionPaper.aspx">Question Paper</a>
+                <a class="mr-5 hover:text-white" href="Result.aspx">Result</a>
+                <a class="mr-5 hover:text-white" herf="Blog.aspx">Blog</a>
+               
 
             </nav>
             <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"><a href="SignUP.aspx"/>Sign Up</button>
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24"/>           
-            <Button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Sign In</Button>
+            <Button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"><a href="login.aspx"/>Log In</Button>
 
         </div>
     </header>
@@ -44,7 +44,7 @@ an authoritative, free, collaboratively developed library of detailed and practi
                 <div class="flex justify-center">
                     
                     <button class="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded text-lg"><a href="SignUP.aspx"/>Sign Up</button>
-                    <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Sign in</button>
+                    <button class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg"><a href="login.aspx"/>Log In</button>
                 </div>
             </div>
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
